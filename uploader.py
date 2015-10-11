@@ -17,7 +17,7 @@ titulo= sys.argv[1]
 cuerpofoto=sys.argv[2]
 
 if cuerpofoto.endswith(".jpg"):
-	resultado= client.create_photo('perunalainen', state="published", data="/home/carol/uploader/"+ cuerpofoto, caption=titulo)
+	resultado= client.create_photo('perunalainen', state="published", data="/home/carol/fotos_tumblr/"+ cuerpofoto, caption=titulo)
 else:
 	resultado= client.create_text("perunalainen", state="published", slug="testing-text-posts", title=titulo, body=cuerpofoto)
 
