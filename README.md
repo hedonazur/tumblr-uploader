@@ -5,6 +5,7 @@ Uploads pictures and text from a dropbox file to Tumblr using the console.
 ##Requirements
 
 * python wrapper [pytumblr](https://github.com/tumblr/pytumblr) v0.0.6
+* pafy
 * Python 2.7
 
 ##Usage
